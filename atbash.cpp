@@ -1,5 +1,3 @@
-/* Coded By Jagan Kaartik */
-
 #include<iostream>
 #include<string.h>
 using namespace std;

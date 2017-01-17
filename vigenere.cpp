@@ -23,6 +23,10 @@ int main()
 		 key[i]=key[p];
 		 c[j]=key[i]-65;
 		 str[h]=str[h]+c[j];
+		 if(str[h]>90)
+		 {
+	            str[h]=64+(str[h]-90)
+		 }	    
 		 cout<<str[h];
 	 }
 	 

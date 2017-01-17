@@ -25,7 +25,7 @@ int main()
 		 str[h]=str[h]+c[j];
 		 if(str[h]>90)
 		 {
-	            str[h]=65+(str[h]-90)
+	            str[h]=64+(str[h]-90)
 		 }	    
 		 cout<<str[h];
 	 }

@@ -10,15 +10,15 @@ int search(int item, int a[], int n)
 	{
 		mid=(beg+last)/2;
 		if(a[mid]==item)
-		{ 
-		  return mid;
-                  break;
-		} 
+		 { 
+		   return mid;
+                   break;
+		 } 
 		else
 		 if(item < a[mid])
 		   { last=mid-1; }
 		  else
-		    { beg=mid+1; }
+		   { beg=mid+1; }
 	}
 	return -1;
     
@@ -38,10 +38,10 @@ void sort(int a[], int n)
           {
 			 temp=a[j];
 			 a[j]=a[j+1];
-			 a[j+1]=temp;
-		  }
-		}
-	}
+			 a[j+1]=temp; 
+	   }
+       }
+    }
 		  	 
     return;
 }

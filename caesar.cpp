@@ -8,24 +8,23 @@ using namespace std;
 
 int main()
 {
-	char str[10];
+      char str[10];
+      int n,k;
 	
-	int n,k;
+      cout<<"Enter a String : ";
+      cin.getline(str,10);
+      cout<<"Enter the key : ";
+      cin>>k;
 	
-	cout<<"Enter a String : ";
-	cin.getline(str,10);
-	cout<<"Enter the key : ";
-	cin>>k;
+      n=strlen(str);
 	
-	n=strlen(str);
-	
-    for(int i=0;i<n;++i)
+        for(int i=0;i<n;++i)
 	{
-		if (isalpha(str[i]))
-		{
-         str[i] = toupper(str[i]); 
-         str[i] = (((str[i]-65) + k) % 26) + 65;
-        }
+	   if (isalpha(str[i]))
+	    {
+             str[i] = toupper(str[i]); 
+             str[i] = (((str[i]-65) + k) % 26) + 65;
+            }
     
 	}
 	
